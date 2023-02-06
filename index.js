@@ -21,7 +21,6 @@ const kilometreToMiles = 0.621
 const celsiusToFahrenheit = 33.8
 
 convertBtn.addEventListener("click", function() {
-    
     let baseValue = inputEl.value
     
     lenghtEl.textContent = `${baseValue} meters = ${(baseValue * meterToFeet).toFixed(3)} feet | 
