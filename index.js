@@ -20,7 +20,6 @@ const kiloToPound = 2.204
 const kilometreToMiles = 0.621
 const celsiusToFahrenheit = 33.8
 
-document.querySelector(inputEl).addEventListener("click").textContent = ''
 convertBtn.addEventListener("click", function() {
     
     let baseValue = inputEl.value
